@@ -1,0 +1,19 @@
+{
+    "name": "e-terin/torg12",
+    "description": "Печать накладной по форме ТОРГ12 в формате PDF и HTML",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "ETerin\\Torg12\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Evgeniy Terin",
+            "email": "web@derin.ru"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}
