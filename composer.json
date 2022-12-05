@@ -3,6 +3,7 @@
     "description": "Печать накладной по форме ТОРГ12 в формате PDF и HTML",
     "type": "library",
     "license": "MIT",
+    "version": "v1.0.0",
     "autoload": {
         "psr-4": {
             "ETerin\\Torg12\\": "src/"
@@ -14,6 +15,7 @@
             "email": "web@derin.ru"
         }
     ],
-    "minimum-stability": "stable",
-    "require": {}
+    "require": {
+        "twig/twig": "^3.4"
+    }
 }
